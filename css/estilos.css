@@ -27,6 +27,22 @@ h1 > strong {
     font-style: italic;
 }
 
+#boton-presentar {
+    background-color: transparent; /* Color de fondo */
+    border: 3px solid #f40909; /* Sin borde */
+    text-decoration: dotted; /* Sin decoración de texto */
+    color: white; /* Color del texto */
+    padding: 15px 32px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    display: inline-block; /* Tipo de display */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin: 4px 2px; /* Margen externo */
+    cursor: pointer; /* Cursor en forma de mano */
+    border-radius: 8px; /* Bordes redondeados */
+
+}
+
+
 #cajas {
     width: 80%;
     margin: 20px auto 0;
@@ -85,7 +101,7 @@ h1 > strong {
     background: url('../img/bowser.png');
 }
 
-#Peach {
+#peach {
     background: url('../img/peach.png');
 }
 
@@ -94,9 +110,9 @@ h1 > strong {
 }
 
 #toadette {
-    background: url('./img/toadette.jpg');
+    background: url('../img/toadette.png');
 }
 
 #daisy {
-    background: url('..img/daisy,png');
+    background: url('../img/daisy.png');
 }

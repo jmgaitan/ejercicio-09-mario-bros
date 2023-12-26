@@ -18,21 +18,39 @@ function fValidateInput(x) {
     return nombreValido ? x : null;
 }
 
+function searchActor(search) {
+    const divID = document.getElementById(search)
+    divID.title = "Presentado";
+}
 
-function userInput (name){
+function deleteActor(deleteActor) {
+    const divID = document.getElementById(deleteActor)
+    divID.title = "";
+}
+
+function userInput (){
+    let cont
+    let actor
+    let name
+    let validateInput
 
     do {
-        name = prompt("¿Quién se presenta hoy?");
-        name = name.charAt(0).toUpperCase() + name.slice(1);
-        var validateInput = fValidateInput(name);
-        miSpan = document.getElementsByTagName('span');
+        actor = prompt("¿Quién se presenta hoy?");
+        actor = actor.toLowerCase()
+    
+        name = actor.charAt(0).toUpperCase() + actor.slice(1);
+        validateInput = fValidateInput(name);
+        const miSpan = document.getElementsByTagName('span');
         for (var i = 0; i < miSpan.length; i++ ){
             miSpan[i].textContent = validateInput;
         }
+        cont =+ 1 ;    
     } while (validateInput ===null);
+    searchActor(actor);
+
 }
 
-userInput()
+
 
 
     
