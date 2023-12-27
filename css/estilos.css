@@ -28,10 +28,10 @@ h1 > strong {
 }
 
 #boton-presentar {
-    background-color: transparent; /* Color de fondo */
-    border: 3px solid #f40909; /* Sin borde */
+    background-color: white; /* Color de fondo */
+    border: 5px solid #f40909; /* Sin borde */
     text-decoration: dotted; /* Sin decoración de texto */
-    color: white; /* Color del texto */
+    color: rgb(131, 131, 131); /* Color del texto */
     padding: 15px 32px; /* Espaciado interno */
     text-align: center; /* Alineación del texto */
     display: inline-block; /* Tipo de display */
@@ -39,8 +39,16 @@ h1 > strong {
     margin: 4px 2px; /* Margen externo */
     cursor: pointer; /* Cursor en forma de mano */
     border-radius: 8px; /* Bordes redondeados */
+}
+
+#boton-presentar:active {
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 15px;
+
+
 
 }
+
 
 
 #cajas {
