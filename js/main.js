@@ -23,17 +23,14 @@ function searchActor(search) {
     divID.title = "Presentado";
 }
 
-function deleteActor(deleteActor) {
-    const divID = document.getElementById(deleteActor)
-    divID.title = "";
-}
 
 function userInput (){
     let cont
     let actor
     let name
     let validateInput
-
+    
+    
     do {
         actor = prompt("¿Quién se presenta hoy?");
         actor = actor.toLowerCase()
@@ -50,7 +47,13 @@ function userInput (){
 
 }
 
-
+function selectionActor() {
+    const miDiv = document.getElementsByTagName('div');
+    for (var i = 0; i < miDiv.length; i++ ){
+        miDiv[i].removeAttribute("title");
+    }
+userInput()
+}
 
 
     
