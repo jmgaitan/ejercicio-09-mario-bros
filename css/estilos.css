@@ -43,9 +43,8 @@ h1 > strong {
 
 #boton-presentar:active {
     border-radius: 8px; /* Bordes redondeados */
-    padding: 15px;
-
-
+    padding: 15px 32px; /* Espaciado interno */
+    font-size: 20px;
 
 }
 
