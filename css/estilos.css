@@ -28,23 +28,30 @@ h1 > strong {
 }
 
 #boton-presentar {
-    background-color: white; /* Color de fondo */
-    border: 5px solid #f40909; /* Sin borde */
-    text-decoration: dotted; /* Sin decoración de texto */
-    color: rgb(131, 131, 131); /* Color del texto */
-    padding: 15px 32px; /* Espaciado interno */
-    text-align: center; /* Alineación del texto */
-    display: inline-block; /* Tipo de display */
-    font-size: 16px; /* Tamaño de la fuente */
-    margin: 4px 2px; /* Margen externo */
-    cursor: pointer; /* Cursor en forma de mano */
-    border-radius: 8px; /* Bordes redondeados */
+    background-color: white;
+    border: 5px solid #f40909; 
+    text-decoration: dotted; 
+    color: rgb(131, 131, 131); 
+    padding: 15px 32px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 16px;
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 8px;
 }
 
+#boton-presentar:hover {
+    background-color: #ffffffd6;
+  }
+
+
 #boton-presentar:active {
-    border-radius: 8px; /* Bordes redondeados */
+    
     padding: 15px 32px; /* Espaciado interno */
     font-size: 20px;
+     box-shadow: 0 2px #666; /* Sombra más pequeña para el efecto hundido */
+     transform: translateY(5px); 
 
 }
 
