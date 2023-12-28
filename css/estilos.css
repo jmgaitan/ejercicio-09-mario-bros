@@ -122,6 +122,9 @@ h1 > strong {
 #yoshi {
     background: url('../img/yoshi.png');
 }
+#toad {
+    background: url('../img/toad.png');
+}
 
 #toadette {
     background: url('../img/toadette.png');
